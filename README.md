@@ -2,27 +2,25 @@
 
 ##### 规则
 
-​		初始蛇身长为2，向右移动，每吃到一次食物身长加1，积分加10
+1. 初始蛇身长为2，向右移动，每吃到一次食物身长加1，积分加10
+2. 键盘wasd控制移动方向
+3. 碰到墙壁、障碍物或者吃到自身时死亡，游戏结束
 
-​		wasd控制移动方向
-
-​		碰到墙壁、障碍物或者吃到自身时死亡，游戏结束
+&nbsp;
 
 ##### 运行方法
 
-​		打开命令行窗口，执行
+1. 打开命令行窗口，输入 `gcc -o greedy_snake.c greedy` 进行编译
 
-```_snake
-		gcc -o header.h greedy_snake.c greedy
-```
+2. 输入 `./greedy_snake` 开始运行
 
-​		生成greedy_snake.exe可执行文件
+&nbsp;
 
-​		运行
+##### 效果演示
 
-```
-		./greedy_snake
-```
+<img src="https://gitee.com/lrk612/md_picture/raw/master/img/20210827093344.png" alt="image-20210827092930036" style="zoom: 67%;" />
+
+&nbsp;
 
 ##### 待实现功能
 
